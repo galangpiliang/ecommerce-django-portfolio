@@ -1,5 +1,5 @@
 """
-WSGI config for ecomprj project.
+WSGI config for ecommerce_django_portfolio project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecomprj.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ecommerce_django_portfolio.settings')
 
 application = get_wsgi_application()
